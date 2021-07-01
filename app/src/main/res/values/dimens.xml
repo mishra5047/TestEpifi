@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textAboveEditText">16sp</dimen>
+    <dimen name="textHeading">24sp</dimen>
+    <dimen name="textButton">18sp</dimen>
+    <dimen name="texNextButton">20sp</dimen>
+
+    <dimen name="margin">20dp</dimen>
+</resources>

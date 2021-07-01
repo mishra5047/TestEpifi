@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestEpifi</string>
+    <string name="string_welcome">First of the few steps to set you up with a bank account</string>
+    <string name="string_pan">PAN Number</string>
+    <string name="stringBday">Birthdate</string>
+    <string name="text_bottom">Providing PAN and Date of Birth helps us find and fetch your KYC registry by the Government Of India</string>
+    <string name="no_pan">I don\'t have a PAN</string>
+</resources>
