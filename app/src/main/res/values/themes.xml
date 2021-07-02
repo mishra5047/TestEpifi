@@ -14,5 +14,18 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.TestEpifi.TextTheme" parent="Widget.AppCompat.TextView">
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.TestEpifi.TextNoPan" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/purple_200</item>
+    </style>
+
+    <style name="Theme.TestEpifi.Button">
+        <item name="android:buttonCornerRadius">10dp</item>
+        <item name="android:background">@color/purple_200</item>
+    </style>
 
 </resources>
