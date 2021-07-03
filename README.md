@@ -1,6 +1,6 @@
 # About The Application
 
-### Architecture Used -> MVVM along with ViewBinding
+### Architecture Used -> MVVM along with DataBinding
 
 ### App's Structure ->
 1. MainActivity -> The Main activity for the application
@@ -9,4 +9,4 @@
 
 ### References
 * [M.V.V.M](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
-* [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
+* [DataBinding](https://developer.android.com/topic/libraries/data-binding)

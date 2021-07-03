@@ -11,6 +11,7 @@
             ></variable>
     </data>
     <LinearLayout
+        style="@style/Theme.TestEpifi.ActivityBackground"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
@@ -20,28 +21,43 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginHorizontal="@dimen/margin">
+            android:layout_marginHorizontal="30dp">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/s_icon"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/string_welcome"
-                android:textSize="@dimen/textHeading"
-                style="@style/Theme.TestEpifi.TextTheme"
-                android:layout_marginVertical="@dimen/margin"
-                />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/s_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_welcome"
+                    android:textSize="@dimen/textHeading"
+                    style="@style/Theme.TestEpifi.TextTheme"
+                    android:layout_marginVertical="@dimen/marginTop"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PAN Number"
                 style="@style/Theme.TestEpifi.TextTheme"
-                android:layout_marginTop="@dimen/margin"
                 android:textSize="@dimen/textAboveEditText"
                 />
 
@@ -120,13 +136,23 @@
 
             </LinearLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/margin"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
             <TextView
+                android:layout_marginHorizontal="@dimen/margin"
                 style="@style/Theme.TestEpifi.TextTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_bottom"
                 android:textSize="@dimen/textAboveEditText"
-                android:layout_marginVertical="@dimen/margin"
                 />
 
             <TextView
@@ -153,8 +179,8 @@
                 android:textSize="@dimen/textButton"
                 android:onClick="@{v -> viewModel.onNoPanClick(v)}"
                 />
-
-        </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
 
     </LinearLayout>
 
